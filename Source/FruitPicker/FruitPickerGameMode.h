@@ -4,6 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+
+#include "FruitPickable.h"
+
 #include "FruitPickerGameMode.generated.h"
 
 UCLASS(minimalapi)
@@ -18,7 +21,11 @@ public:
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<AActor> Fruit;
 
-	float SpawnZ = 500.0f;
+	//TODO fix array
+	UPROPERTY(EditAnywhere)
+		TArray<AFruitPickable*> FruitDrop;
+
+	float SpawnZ = 900.0f;
 
 	UPROPERTY(EditAnywhere)
 		float SpawnMinX;

@@ -75,6 +75,7 @@ protected:
 	virtual void BeginPlay() override;
 
 private:
+	UPROPERTY(VisibleAnywhere)
 	int FruitsPicked = 0;
 
 	UPROPERTY()

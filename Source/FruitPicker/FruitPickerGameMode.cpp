@@ -4,7 +4,6 @@
 #include "FruitPickerCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 
-
 AFruitPickerGameMode::AFruitPickerGameMode()
 {
 	PrimaryActorTick.bCanEverTick = true;
@@ -18,6 +17,7 @@ AFruitPickerGameMode::AFruitPickerGameMode()
 void AFruitPickerGameMode::BeginPlay()
 {
 	Super::BeginPlay();
+
 }
 
 void AFruitPickerGameMode::Tick(float DeltaTime)
@@ -28,8 +28,8 @@ void AFruitPickerGameMode::Tick(float DeltaTime)
 void AFruitPickerGameMode::SpawnFruit()
 {
 	UE_LOG(LogTemp, Warning, TEXT("Fruit Dropped"));
-	float RandX = FMath::RandRange(SpawnMinX, SpawnMinX);
-	float RandY = FMath::RandRange(SpawnMinY, SpawnMinY);
+	float RandX = FMath::RandRange(SpawnMinX, SpawnMaxX);
+	float RandY = FMath::RandRange(SpawnMinY, SpawnMaxY);
 
 	FVector SpawnPosition = FVector(RandX, RandY, SpawnZ);
 	FRotator SpawnRotation = FRotator(0.0f, 0.0f, 0.0f);

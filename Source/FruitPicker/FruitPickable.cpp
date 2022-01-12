@@ -26,6 +26,10 @@ AFruitPickable::AFruitPickable()
 	SphereComp->SetCollisionResponseToAllChannels(ECR_Ignore);
 	SphereComp->SetCollisionResponseToChannel(ECC_Pawn, ECR_Overlap);
 
+	if (HasAuthority()) {
+		SetReplicates(true);
+		SetReplicateMovement(true);
+	}
 }
 
 // Called when the game starts or when spawned
@@ -45,16 +49,18 @@ void AFruitPickable::Tick(float DeltaTime)
 
 void AFruitPickable::HandleOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	UE_LOG(LogTemp, Warning, TEXT("Overlapped"));
-	AFruitPickerCharacter* OverlapChar = Cast<AFruitPickerCharacter>(OtherActor);
-	if (OverlapChar)
-	{
-		OverlapChar->IncrementFruitCount();
-	
+	if (HasAuthority()) {
+		UE_LOG(LogTemp, Warning, TEXT("Overlapped"));
+		AFruitPickerCharacter* OverlapChar = Cast<AFruitPickerCharacter>(OtherActor);
+		if (OverlapChar)
+		{
+			OverlapChar->IncrementFruitCount();
+
+			Destroy();
+		}
+
 		Destroy();
 	}
-
-	Destroy();
 }
 
 
