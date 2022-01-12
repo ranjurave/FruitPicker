@@ -19,6 +19,7 @@ void AFruitPickerGameMode::BeginPlay()
 {
 	Super::BeginPlay();
 
+	//ToDo implement in array
 	//UWorld* world = GetWorld(); 
 	//for (TActorIterator<AActor> It(world, AActor::StaticClass()); It; ++It) {
 	//	AActor* actor = *It;

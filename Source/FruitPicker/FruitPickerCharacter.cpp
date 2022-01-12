@@ -151,5 +151,5 @@ void AFruitPickerCharacter::BeginPlay()
 void AFruitPickerCharacter::IncrementFruitCount() {
 	FruitsPicked++;
 	FruitGameMode->SpawnFruit();
-	UE_LOG(LogTemp, Warning, TEXT("%d"), FruitsPicked);
+	//UE_LOG(LogTemp, Warning, TEXT("%d"), FruitsPicked);
 }

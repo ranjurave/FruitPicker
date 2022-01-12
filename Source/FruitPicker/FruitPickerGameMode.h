@@ -25,7 +25,7 @@ public:
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<AActor> Apple;
 
-	//TODO fix array
+	//TODO implement in array
 	//UPROPERTY()
 	//	TArray<AActor*> FruitDropList;
 
