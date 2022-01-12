@@ -1,8 +1,9 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #pragma once
-
 #include "CoreMinimal.h"
+#include "FruitPickable.h"
+#include "GameFramework/Actor.h"
 #include "GameFramework/Character.h"
 #include "FruitPickerCharacter.generated.h"
 

@@ -1,11 +1,11 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
 #pragma once
-
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 
 #include "FruitPickable.h"
+#include "GameFramework/Actor.h"
 
 #include "FruitPickerGameMode.generated.h"
 
@@ -19,11 +19,15 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere)
-		TSubclassOf<AActor> Fruit;
+		TSubclassOf<AActor> Mango;
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<AActor> Orange;
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<AActor> Apple;
 
 	//TODO fix array
-	UPROPERTY(EditAnywhere)
-		TArray<AFruitPickable*> FruitDrop;
+	//UPROPERTY()
+	//	TArray<AActor*> FruitDropList;
 
 	float SpawnZ = 900.0f;
 
