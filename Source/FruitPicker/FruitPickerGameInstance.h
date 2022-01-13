@@ -6,9 +6,7 @@
 #include "Engine/GameInstance.h"
 #include "FruitPickerGameInstance.generated.h"
 
-/**
- * 
- */
+class UUserWidget;
 UCLASS()
 class FRUITPICKER_API UFruitPickerGameInstance : public UGameInstance
 {
@@ -22,4 +20,10 @@ class FRUITPICKER_API UFruitPickerGameInstance : public UGameInstance
 
 	UFUNCTION(Exec)
 		void Join(const FString& Address);
+
+	UFUNCTION(BlueprintCallable)
+		void LoadMainMenu();
+
+private:
+	TSubclassOf<UUserWidget> MainMenuClass;
 };

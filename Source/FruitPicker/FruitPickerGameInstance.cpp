@@ -4,15 +4,20 @@
 #include "FruitPickerGameInstance.h"
 
 #include "Engine/Engine.h"
+#include "UObject/ConstructorHelpers.h"
+#include "FruitPickable.h"
+#include "Blueprint/UserWidget.h"
 
 UFruitPickerGameInstance::UFruitPickerGameInstance(const FObjectInitializer& ObjectInitializer)
 {
-	UE_LOG(LogTemp, Warning, TEXT("gi constructor"));
+	ConstructorHelpers::FClassFinder<UUserWidget> MainMenuBPClass(TEXT("/Game/UI/MainMenu_WBP"));
+	if (!ensure(MainMenuBPClass.Class != nullptr)) return;
+	MainMenuClass = MainMenuBPClass.Class;
 }
 
 void UFruitPickerGameInstance::Init()
 {
-	UE_LOG(LogTemp, Warning, TEXT("init"));
+	UE_LOG(LogTemp, Warning, TEXT("Found Class %s"), *MainMenuClass->GetName());
 }
 
 void UFruitPickerGameInstance::Host()
@@ -37,4 +42,19 @@ void UFruitPickerGameInstance::Join(const FString& Address) {
 	APlayerController* PlayerController = GetFirstLocalPlayerController();
 	if (!ensure(PlayerController != nullptr)) return;
 	PlayerController->ClientTravel(Address, ETravelType::TRAVEL_Absolute);
+}
+
+void UFruitPickerGameInstance::LoadMainMenu()
+{
+	if (!ensure(MainMenuClass != nullptr)) return;
+	UUserWidget* Menu = CreateWidget<UUserWidget>(this, MainMenuClass);
+	if (!ensure(Menu != nullptr)) return;
+	Menu->AddToViewport();
+
+	APlayerController* PlayerController = GetFirstLocalPlayerController();
+	FInputModeUIOnly InputModeData;
+	InputModeData.SetWidgetToFocus(Menu->TakeWidget());
+	InputModeData.SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);
+	PlayerController->SetInputMode(InputModeData);
+	PlayerController->bShowMouseCursor = true;
 }
