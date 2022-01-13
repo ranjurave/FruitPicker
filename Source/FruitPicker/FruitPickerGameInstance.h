@@ -4,11 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
+#include "MenuInterface.h"
 #include "FruitPickerGameInstance.generated.h"
 
 class UUserWidget;
 UCLASS()
-class FRUITPICKER_API UFruitPickerGameInstance : public UGameInstance
+class FRUITPICKER_API UFruitPickerGameInstance : public UGameInstance, public IMenuInterface
 {
 	GENERATED_BODY()
 
@@ -26,4 +27,6 @@ class FRUITPICKER_API UFruitPickerGameInstance : public UGameInstance
 
 private:
 	TSubclassOf<UUserWidget> MainMenuClass;
+
+	class UMainMenu* Menu;
 };
