@@ -26,16 +26,18 @@ AFruitPickable::AFruitPickable()
 	SphereComp->SetCollisionResponseToAllChannels(ECR_Ignore);
 	SphereComp->SetCollisionResponseToChannel(ECC_Pawn, ECR_Overlap);
 
-	if (HasAuthority()) {
-		SetReplicates(true);
-		SetReplicateMovement(true);
-	}
 }
 
 // Called when the game starts or when spawned
 void AFruitPickable::BeginPlay()
 {
 	Super::BeginPlay();	
+
+	if (HasAuthority()) {
+		SetReplicates(true);
+		SetReplicateMovement(true);
+	}
+
 	SphereComp->OnComponentBeginOverlap.AddDynamic(this, &AFruitPickable::HandleOverlap);
 }
 

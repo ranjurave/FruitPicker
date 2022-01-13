@@ -36,8 +36,8 @@ void AFruitPickerGameMode::Tick(float DeltaTime)
 
 void AFruitPickerGameMode::SpawnFruit()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Fruit Dropped"));
-
+	//UE_LOG(LogTemp, Warning, TEXT("Fruit Dropped"));
+	//For array
 	//int32 countFruit = FruitDropList.Num();
 	//if (countFruit == 0) return;
 	float RandX = FMath::RandRange(SpawnMinX, SpawnMaxX);

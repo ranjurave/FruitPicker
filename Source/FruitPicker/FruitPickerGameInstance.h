@@ -16,4 +16,10 @@ class FRUITPICKER_API UFruitPickerGameInstance : public UGameInstance
 
 	UFruitPickerGameInstance(const FObjectInitializer & ObjectInitializer);
 	virtual void Init();
+
+	UFUNCTION(Exec)
+		void Host();
+
+	UFUNCTION(Exec)
+		void Join(const FString& Address);
 };
