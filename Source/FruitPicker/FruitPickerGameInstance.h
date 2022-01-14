@@ -4,19 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
-<<<<<<< HEAD
 #include "MenuInterface.h"
-#include "Containers/Array.h"
-//#include "FruitPickerCharacter.h"
-=======
->>>>>>> parent of 91dec79 (Join with Menu finished)
 #include "FruitPickerGameInstance.generated.h"
 
 class UUserWidget;
-class UMainMenu;
-class AFruitPickerCharacter;
 UCLASS()
-class FRUITPICKER_API UFruitPickerGameInstance : public UGameInstance
+class FRUITPICKER_API UFruitPickerGameInstance : public UGameInstance, public IMenuInterface
 {
 	GENERATED_BODY()
 
@@ -27,18 +20,13 @@ class FRUITPICKER_API UFruitPickerGameInstance : public UGameInstance
 		void Host();
 
 	UFUNCTION(Exec)
-		void Join(const FString& Address, AFruitPickerCharacter* Client);
+		void Join(const FString& Address);
 
 	UFUNCTION(BlueprintCallable)
 		void LoadMainMenu();
 
 private:
 	TSubclassOf<UUserWidget> MainMenuClass;
-<<<<<<< HEAD
-	UMainMenu* Menu;
 
-public:
-	TArray<AFruitPickerCharacter*> PlayerCharactersJoined;
-=======
->>>>>>> parent of 91dec79 (Join with Menu finished)
+	class UMainMenu* Menu;
 };

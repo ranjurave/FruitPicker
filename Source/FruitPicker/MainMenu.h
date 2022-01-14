@@ -4,24 +4,42 @@
 
 #include "CoreMinimal.h"
 #include "Blueprint/UserWidget.h"
+#include "MenuInterface.h"
 #include "MainMenu.generated.h"
 
-class AFruitPickerCharacter;
+/**
+ * 
+ */
 UCLASS()
 class FRUITPICKER_API UMainMenu : public UUserWidget
 {
 	GENERATED_BODY()
+
+public:
+	void SetMenuInterface(IMenuInterface* GameMenuInterface);
+
+	void Setup();
+	void Teardown();
+
 protected:
 	virtual bool Initialize() override;
 
 private:
 	UPROPERTY(meta = (BindWidget))
-	class UButton* Host;
+	class UButton* HostButton;
 
 	UPROPERTY(meta = (BindWidget))
-	class UButton* Join;
+	class UButton* JoinButton;
 
-<<<<<<< HEAD
+	UPROPERTY(meta = (BindWidget))
+	class UButton* BackButton;
+
+	UPROPERTY(meta = (BindWidget))
+	class UWidgetSwitcher* MenuSwitcher;
+
+	UPROPERTY(meta = (BindWidget))
+	class UWidget* JoinMenu;
+
 	UPROPERTY(meta = (BindWidget))
 	class UButton* JoinGameButton;
 
@@ -36,7 +54,6 @@ private:
 
 	UFUNCTION()
 	void HostServer();
-
 	UFUNCTION()
 		void JoinServer();
 
@@ -47,11 +64,4 @@ private:
 	void OpenMainMenu();
 
 	IMenuInterface* MenuInterface;
-
-	UPROPERTY()
-	AFruitPickerCharacter* Player;
-=======
-	UFUNCTION()
-		void HostServer();
->>>>>>> parent of 91dec79 (Join with Menu finished)
 };

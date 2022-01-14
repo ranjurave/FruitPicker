@@ -59,7 +59,7 @@ void AFruitPickable::HandleOverlap(UPrimitiveComponent* OverlappedComponent, AAc
 
 			Destroy();
 		}
-		//ToDo remove
+
 		Destroy();
 	}
 }
