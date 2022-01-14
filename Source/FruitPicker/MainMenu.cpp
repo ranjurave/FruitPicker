@@ -89,7 +89,7 @@ void UMainMenu::JoinServer() {
 		if (!ensure(PlayerController != nullptr)) return;
 		AFruitPickerCharacter* PlayerCharacter = Cast<AFruitPickerCharacter>(PlayerController->GetPawn());
 		PlayerCharacter->PlayerName = EnteredPlayerName;
-		UE_LOG(LogTemp, Warning, TEXT("%s"), *PlayerCharacter->PlayerName);
-		MenuInterface->Join(Address, EnteredPlayerName);
+		//UE_LOG(LogTemp, Warning, TEXT("%s"), *PlayerCharacter->PlayerName);
+		MenuInterface->Join(Address, PlayerCharacter);
 	}
 }

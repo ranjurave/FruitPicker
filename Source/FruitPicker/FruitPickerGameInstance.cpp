@@ -5,6 +5,7 @@
 
 #include "Engine/Engine.h"
 #include "UObject/ConstructorHelpers.h"
+#include "FruitPickerCharacter.h"
 #include "Blueprint/UserWidget.h"
 #include "FruitPickable.h"
 #include "MainMenu.h"
@@ -37,7 +38,7 @@ void UFruitPickerGameInstance::Host()
 	World->ServerTravel("/Game/ThirdPersonCPP/Maps/GameMap?listen");
 }
 
-void UFruitPickerGameInstance::Join(const FString& Address, FString ClientName) {
+void UFruitPickerGameInstance::Join(const FString& Address, AFruitPickerCharacter* Client) {
 	if (Menu != nullptr) {
 		Menu->Teardown();
 	}
@@ -50,7 +51,7 @@ void UFruitPickerGameInstance::Join(const FString& Address, FString ClientName) 
 	if (!ensure(PlayerController != nullptr)) return;
 	AFruitPickerCharacter* PlayerCharacter = Cast<AFruitPickerCharacter>(PlayerController->GetPawn());
 	if (!ensure(PlayerCharacter != nullptr)) return;
-	PlayerCharacter->PlayerName = ClientName;
+	PlayerCharactersJoined.Add(Client);
 	PlayerController->ClientTravel(Address, ETravelType::TRAVEL_Absolute);
 }
 

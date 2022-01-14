@@ -11,6 +11,7 @@
 
 #include "FruitPickerGameMode.h"
 #include "Kismet/GameplayStatics.h"
+#include "FruitPickerGameInstance.h"
 
 //////////////////////////////////////////////////////////////////////////
 // AFruitPickerCharacter
@@ -146,6 +147,8 @@ void AFruitPickerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	FruitGameMode = Cast< AFruitPickerGameMode>(UGameplayStatics::GetGameMode(GetWorld()));
+	FruitGameInstance = Cast<AFruitPickerGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
+
 }
 
 void AFruitPickerCharacter::IncrementFruitCount() {

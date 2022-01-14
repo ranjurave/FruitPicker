@@ -5,9 +5,11 @@
 #include "FruitPickable.h"
 #include "GameFramework/Actor.h"
 #include "GameFramework/Character.h"
+//#include "FruitPickerGameInstance.h"
 #include "FruitPickerCharacter.generated.h"
 
 class AFruitPickerGameMode;
+//class AFruitPickerGameInstance;
 
 UCLASS(config=Game)
 class AFruitPickerCharacter : public ACharacter
@@ -82,6 +84,9 @@ private:
 
 	UPROPERTY()
 	AFruitPickerGameMode* FruitGameMode = nullptr;
+
+	UPROPERTY()
+	class AFruitPickerGameInstance* FruitGameInstance = nullptr;
 
 	void SetPlayerName(FString Name);
 public:

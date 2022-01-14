@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
+#include "FruitPickerCharacter.h"
 #include "MenuInterface.generated.h"
 
 // This class does not need to be modified.
@@ -24,5 +25,5 @@ class FRUITPICKER_API IMenuInterface
 public:
 
 	virtual void Host() = 0;
-	virtual void Join(const FString& Address, FString ClientName) = 0;
+	virtual void Join(const FString& Address, AFruitPickerCharacter* Client) = 0;
 };

@@ -6,11 +6,12 @@
 #include "Engine/GameInstance.h"
 #include "MenuInterface.h"
 #include "Containers/Array.h"
-#include "FruitPickerCharacter.h"
+//#include "FruitPickerCharacter.h"
 #include "FruitPickerGameInstance.generated.h"
 
 class UUserWidget;
 class UMainMenu;
+class AFruitPickerCharacter;
 UCLASS()
 class FRUITPICKER_API UFruitPickerGameInstance : public UGameInstance, public IMenuInterface
 {
@@ -23,15 +24,15 @@ class FRUITPICKER_API UFruitPickerGameInstance : public UGameInstance, public IM
 		void Host();
 
 	UFUNCTION(Exec)
-		void Join(const FString& Address, FString ClientName);
+		void Join(const FString& Address, AFruitPickerCharacter* Client);
 
 	UFUNCTION(BlueprintCallable)
 		void LoadMainMenu();
 
 private:
 	TSubclassOf<UUserWidget> MainMenuClass;
-
 	UMainMenu* Menu;
 
-	TArray<AFruitPickerCharacter> PlayerCharacterJoined;
+public:
+	TArray<AFruitPickerCharacter*> PlayerCharactersJoined;
 };
