@@ -4,16 +4,19 @@
 
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
+<<<<<<< HEAD
 #include "MenuInterface.h"
 #include "Containers/Array.h"
 //#include "FruitPickerCharacter.h"
+=======
+>>>>>>> parent of 91dec79 (Join with Menu finished)
 #include "FruitPickerGameInstance.generated.h"
 
 class UUserWidget;
 class UMainMenu;
 class AFruitPickerCharacter;
 UCLASS()
-class FRUITPICKER_API UFruitPickerGameInstance : public UGameInstance, public IMenuInterface
+class FRUITPICKER_API UFruitPickerGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
 
@@ -31,8 +34,11 @@ class FRUITPICKER_API UFruitPickerGameInstance : public UGameInstance, public IM
 
 private:
 	TSubclassOf<UUserWidget> MainMenuClass;
+<<<<<<< HEAD
 	UMainMenu* Menu;
 
 public:
 	TArray<AFruitPickerCharacter*> PlayerCharactersJoined;
+=======
+>>>>>>> parent of 91dec79 (Join with Menu finished)
 };

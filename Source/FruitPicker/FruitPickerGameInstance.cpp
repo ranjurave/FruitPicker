@@ -5,10 +5,13 @@
 
 #include "Engine/Engine.h"
 #include "UObject/ConstructorHelpers.h"
+<<<<<<< HEAD
 #include "FruitPickerCharacter.h"
 #include "Blueprint/UserWidget.h"
+=======
+>>>>>>> parent of 91dec79 (Join with Menu finished)
 #include "FruitPickable.h"
-#include "MainMenu.h"
+#include "Blueprint/UserWidget.h"
 
 UFruitPickerGameInstance::UFruitPickerGameInstance(const FObjectInitializer& ObjectInitializer)
 {
@@ -24,9 +27,6 @@ void UFruitPickerGameInstance::Init()
 
 void UFruitPickerGameInstance::Host()
 {
-	if (Menu != nullptr) {
-		Menu->Teardown();
-	}
 	UEngine* Engine = GetEngine();
 	if (!ensure(Engine != nullptr)) return;
 
@@ -38,10 +38,14 @@ void UFruitPickerGameInstance::Host()
 	World->ServerTravel("/Game/ThirdPersonCPP/Maps/GameMap?listen");
 }
 
+<<<<<<< HEAD
 void UFruitPickerGameInstance::Join(const FString& Address, AFruitPickerCharacter* Client) {
 	if (Menu != nullptr) {
 		Menu->Teardown();
 	}
+=======
+void UFruitPickerGameInstance::Join(const FString& Address) {
+>>>>>>> parent of 91dec79 (Join with Menu finished)
 	UEngine* Engine = GetEngine();
 	if (!ensure(Engine != nullptr)) return;
 
@@ -58,9 +62,14 @@ void UFruitPickerGameInstance::Join(const FString& Address, AFruitPickerCharacte
 void UFruitPickerGameInstance::LoadMainMenu()
 {
 	if (!ensure(MainMenuClass != nullptr)) return;
-	Menu = CreateWidget<UMainMenu>(this, MainMenuClass);
+	UUserWidget* Menu = CreateWidget<UUserWidget>(this, MainMenuClass);
 	if (!ensure(Menu != nullptr)) return;
-	Menu->Setup();
-	Menu->SetMenuInterface(this);
+	Menu->AddToViewport();
 
+	APlayerController* PlayerController = GetFirstLocalPlayerController();
+	FInputModeUIOnly InputModeData;
+	InputModeData.SetWidgetToFocus(Menu->TakeWidget());
+	InputModeData.SetLockMouseToViewportBehavior(EMouseLockMode::DoNotLock);
+	PlayerController->SetInputMode(InputModeData);
+	PlayerController->bShowMouseCursor = true;
 }
