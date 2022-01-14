@@ -1,0 +1,1 @@
+"E:\Program Files\UE_4.27\Engine\Binaries\Win64\UE4Editor.exe" "D:\Unreal Projects\FruitPicker\FruitPicker.uproject" -game

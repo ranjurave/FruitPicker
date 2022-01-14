@@ -18,7 +18,7 @@ UFruitPickerGameInstance::UFruitPickerGameInstance(const FObjectInitializer& Obj
 
 void UFruitPickerGameInstance::Init()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Found Class %s"), *MainMenuClass->GetName());
+	//UE_LOG(LogTemp, Warning, TEXT("Found Class %s"), *MainMenuClass->GetName());
 }
 
 void UFruitPickerGameInstance::Host()
@@ -37,7 +37,7 @@ void UFruitPickerGameInstance::Host()
 	World->ServerTravel("/Game/ThirdPersonCPP/Maps/GameMap?listen");
 }
 
-void UFruitPickerGameInstance::Join(const FString& Address) {
+void UFruitPickerGameInstance::Join(const FString& Address, FString ClientName) {
 	if (Menu != nullptr) {
 		Menu->Teardown();
 	}
@@ -48,6 +48,9 @@ void UFruitPickerGameInstance::Join(const FString& Address) {
 
 	APlayerController* PlayerController = GetFirstLocalPlayerController();
 	if (!ensure(PlayerController != nullptr)) return;
+	AFruitPickerCharacter* PlayerCharacter = Cast<AFruitPickerCharacter>(PlayerController->GetPawn());
+	if (!ensure(PlayerCharacter != nullptr)) return;
+	PlayerCharacter->PlayerName = ClientName;
 	PlayerController->ClientTravel(Address, ETravelType::TRAVEL_Absolute);
 }
 

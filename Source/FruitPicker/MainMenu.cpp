@@ -6,6 +6,7 @@
 #include "Components/Button.h"
 #include "Components/WidgetSwitcher.h"
 #include "Components/EditableTextBox.h"
+#include "FruitPickerCharacter.h"
 
 bool UMainMenu::Initialize() {
 	bool Success = Super::Initialize();
@@ -73,13 +74,22 @@ void UMainMenu::OpenMainMenu() {
 	if (!ensure(MainMenu != nullptr)) return;
 
 	MenuSwitcher->SetActiveWidget(MainMenu);
-
 }
 
 void UMainMenu::JoinServer() {
 	if (MenuInterface != nullptr) {
 		if (!ensure(IPAddressField != nullptr)) return;
 		const FString Address = IPAddressField->GetText().ToString();
-		MenuInterface->Join(Address);
+
+		if (!ensure(NameField != nullptr)) return;
+		const FString EnteredPlayerName = NameField->GetText().ToString();
+		UWorld* World = GetWorld();
+		if (!ensure(World != nullptr)) return;
+		APlayerController* PlayerController = World->GetFirstPlayerController();
+		if (!ensure(PlayerController != nullptr)) return;
+		AFruitPickerCharacter* PlayerCharacter = Cast<AFruitPickerCharacter>(PlayerController->GetPawn());
+		PlayerCharacter->PlayerName = EnteredPlayerName;
+		UE_LOG(LogTemp, Warning, TEXT("%s"), *PlayerCharacter->PlayerName);
+		MenuInterface->Join(Address, EnteredPlayerName);
 	}
 }

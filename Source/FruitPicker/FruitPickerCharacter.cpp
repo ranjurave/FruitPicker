@@ -153,3 +153,6 @@ void AFruitPickerCharacter::IncrementFruitCount() {
 	FruitGameMode->SpawnFruit();
 	//UE_LOG(LogTemp, Warning, TEXT("%d"), FruitsPicked);
 }
+void AFruitPickerCharacter::SetPlayerName(FString Name) {
+	PlayerName = Name;
+}

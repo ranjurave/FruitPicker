@@ -7,9 +7,7 @@
 #include "MenuInterface.h"
 #include "MainMenu.generated.h"
 
-/**
- * 
- */
+class AFruitPickerCharacter;
 UCLASS()
 class FRUITPICKER_API UMainMenu : public UUserWidget
 {
@@ -54,6 +52,7 @@ private:
 
 	UFUNCTION()
 	void HostServer();
+
 	UFUNCTION()
 		void JoinServer();
 
@@ -64,4 +63,7 @@ private:
 	void OpenMainMenu();
 
 	IMenuInterface* MenuInterface;
+
+	UPROPERTY()
+	AFruitPickerCharacter* Player;
 };

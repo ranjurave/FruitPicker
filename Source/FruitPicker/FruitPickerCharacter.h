@@ -8,6 +8,7 @@
 #include "FruitPickerCharacter.generated.h"
 
 class AFruitPickerGameMode;
+
 UCLASS(config=Game)
 class AFruitPickerCharacter : public ACharacter
 {
@@ -82,6 +83,10 @@ private:
 	UPROPERTY()
 	AFruitPickerGameMode* FruitGameMode = nullptr;
 
+	void SetPlayerName(FString Name);
 public:
 	void IncrementFruitCount();
+
+	UPROPERTY(BlueprintReadOnly)
+	FString PlayerName = "Test Name";
 };
