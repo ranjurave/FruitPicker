@@ -40,9 +40,15 @@ public:
 	UPROPERTY(EditAnywhere)
 		float SpawnMaxY;
 
-public:
 	AFruitPickerGameMode();
 	void SpawnFruit();
+
+	UFUNCTION()
+	void GameOverMenu();
+
+private:
+	TSubclassOf<class UUserWidget> FinishMenuClass;
+
 };
 
 

@@ -150,6 +150,9 @@ void AFruitPickerCharacter::BeginPlay()
 
 void AFruitPickerCharacter::IncrementFruitCount() {
 	FruitsPicked++;
+	if (FruitsPicked >= 2) {
+		FruitGameMode->GameOverMenu();
+	}
 	FruitGameMode->SpawnFruit();
 	//UE_LOG(LogTemp, Warning, TEXT("%d"), FruitsPicked);
 }

@@ -4,7 +4,7 @@
 #include "FruitPickerCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 #include "EngineUtils.h"
-
+#include "Blueprint/UserWidget.h"
 AFruitPickerGameMode::AFruitPickerGameMode()
 {
 	PrimaryActorTick.bCanEverTick = true;
@@ -14,10 +14,17 @@ AFruitPickerGameMode::AFruitPickerGameMode()
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+
+	ConstructorHelpers::FClassFinder<UUserWidget> GameFinishedBPClass(TEXT("/Game/UI/GameFinished_WBP"));
+	if (!ensure(GameFinishedBPClass.Class != nullptr)) return;
+	FinishMenuClass = GameFinishedBPClass.Class;
 }
+
 void AFruitPickerGameMode::BeginPlay()
 {
 	Super::BeginPlay();
+	//GameOverMenu();
+	UE_LOG(LogTemp, Warning, TEXT("Found Class %s"), *FinishMenuClass->GetName());
 
 	//ToDo implement in array
 	//UWorld* world = GetWorld(); 
@@ -61,4 +68,12 @@ void AFruitPickerGameMode::SpawnFruit()
 	default:
 		break;
 	}
+}
+
+void AFruitPickerGameMode::GameOverMenu() {
+	if (!ensure(FinishMenuClass != nullptr)) return;
+
+	UUserWidget* FinishMenu = CreateWidget<UUserWidget>(GetWorld(), FinishMenuClass);
+	if (!ensure(FinishMenu != nullptr)) return;
+	FinishMenu->AddToViewport();
 }
