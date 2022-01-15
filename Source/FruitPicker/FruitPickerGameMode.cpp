@@ -15,7 +15,7 @@ AFruitPickerGameMode::AFruitPickerGameMode()
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
 
-	ConstructorHelpers::FClassFinder<UUserWidget> GameFinishedBPClass(TEXT("/Game/UI/GameFinished_WBP"));
+	ConstructorHelpers::FClassFinder<UUserWidget> GameFinishedBPClass(TEXT("/Game/UI/GameOver_WBP"));
 	if (!ensure(GameFinishedBPClass.Class != nullptr)) return;
 	FinishMenuClass = GameFinishedBPClass.Class;
 }

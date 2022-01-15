@@ -7,7 +7,6 @@
 #include "MenuInterface.h"
 #include "FruitPickerGameInstance.generated.h"
 
-class UUserWidget;
 UCLASS()
 class FRUITPICKER_API UFruitPickerGameInstance : public UGameInstance, public IMenuInterface
 {
@@ -26,7 +25,7 @@ class FRUITPICKER_API UFruitPickerGameInstance : public UGameInstance, public IM
 		void LoadMainMenu();
 
 private:
-	TSubclassOf<UUserWidget> MainMenuClass;
-
+	TSubclassOf<class UUserWidget> MainMenuClass;
+	TSubclassOf<class UUserWidget> GameOverClass;
 	class UMainMenu* Menu;
 };
