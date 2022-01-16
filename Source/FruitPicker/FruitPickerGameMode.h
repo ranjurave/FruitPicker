@@ -19,18 +19,10 @@ protected:
 public:
 	virtual void Tick(float DeltaTime) override;
 
-	//UPROPERTY(EditAnywhere)
-	//	TSubclassOf<AActor> Mango;
-	//UPROPERTY(EditAnywhere)
-	//	TSubclassOf<AActor> Orange;
-	//UPROPERTY(EditAnywhere)
-	//	TSubclassOf<AActor> Apple;
-
-	//TODO implement in array
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<TSubclassOf<AFruitPickable>> FruitDropList;
 
-	float SpawnZ = 50.0f;
+	float SpawnZ = 100.0f;
 
 	UPROPERTY(EditAnywhere)
 		float SpawnMinX;
@@ -46,6 +38,9 @@ public:
 
 	UFUNCTION()
 	void GameOverMenu();
+
+	UPROPERTY(EditAnywhere)
+	int32 MaxFruitCount;
 
 private:
 	TSubclassOf<class UUserWidget> FinishMenuClass;

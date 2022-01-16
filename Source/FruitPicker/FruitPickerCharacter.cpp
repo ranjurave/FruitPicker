@@ -150,8 +150,11 @@ void AFruitPickerCharacter::BeginPlay()
 
 void AFruitPickerCharacter::IncrementFruitCount() {
 	FruitsPicked++;
-	if (FruitsPicked >= 5) {
+	if (FruitsPicked >= FruitGameMode->MaxFruitCount) {
+		
 		FruitGameMode->GameOverMenu();
+		APlayerController* PlayerController = GetWorld()->GetFirstPlayerController();
+		this->DisableInput(PlayerController);
 	}
 	FruitGameMode->SpawnFruit();
 	//UE_LOG(LogTemp, Warning, TEXT("%d"), FruitsPicked);
