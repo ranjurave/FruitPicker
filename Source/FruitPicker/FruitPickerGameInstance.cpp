@@ -22,7 +22,7 @@ UFruitPickerGameInstance::UFruitPickerGameInstance(const FObjectInitializer& Obj
 
 void UFruitPickerGameInstance::Init()
 {
-	UE_LOG(LogTemp, Warning, TEXT("Found Class %s"), *MainMenuClass->GetName());
+	//UE_LOG(LogTemp, Warning, TEXT("Found Class %s"), *MainMenuClass->GetName());
 }
 
 void UFruitPickerGameInstance::Host()
@@ -33,7 +33,7 @@ void UFruitPickerGameInstance::Host()
 	UEngine* Engine = GetEngine();
 	if (!ensure(Engine != nullptr)) return;
 
-	Engine->AddOnScreenDebugMessage(0, 10, FColor::Green, TEXT("Hosting"));
+	//Engine->AddOnScreenDebugMessage(0, 10, FColor::Green, TEXT("Hosting"));
 
 	UWorld* World = GetWorld();
 	if (!ensure(World != nullptr)) return;
@@ -48,7 +48,7 @@ void UFruitPickerGameInstance::Join(const FString& Address) {
 	UEngine* Engine = GetEngine();
 	if (!ensure(Engine != nullptr)) return;
 
-	Engine->AddOnScreenDebugMessage(0, 10, FColor::Blue, FString::Printf(TEXT("Joining %s"), *Address));
+	//Engine->AddOnScreenDebugMessage(0, 10, FColor::Blue, FString::Printf(TEXT("Joining %s"), *Address));
 
 	APlayerController* PlayerController = GetFirstLocalPlayerController();
 	if (!ensure(PlayerController != nullptr)) return;
@@ -62,5 +62,4 @@ void UFruitPickerGameInstance::LoadMainMenu()
 	if (!ensure(Menu != nullptr)) return;
 	Menu->Setup();
 	Menu->SetMenuInterface(this);
-
 }

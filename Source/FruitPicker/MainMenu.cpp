@@ -53,7 +53,7 @@ void UMainMenu::Teardown() {
 }
 
 void UMainMenu::HostServer() {
-	UE_LOG(LogTemp, Warning, TEXT("host server"));
+	//UE_LOG(LogTemp, Warning, TEXT("host server"));
 
 	if (MenuInterface != nullptr) {
 		MenuInterface->Host();
@@ -80,6 +80,7 @@ void UMainMenu::JoinServer() {
 	if (MenuInterface != nullptr) {
 		if (!ensure(IPAddressField != nullptr)) return;
 		const FString Address = IPAddressField->GetText().ToString();
+		const FString PlayerName = NameField->GetText().ToString();
 		MenuInterface->Join(Address);
 	}
 }
