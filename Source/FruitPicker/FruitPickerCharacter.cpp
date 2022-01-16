@@ -150,7 +150,7 @@ void AFruitPickerCharacter::BeginPlay()
 
 void AFruitPickerCharacter::IncrementFruitCount() {
 	FruitsPicked++;
-	if (FruitsPicked >= 2) {
+	if (FruitsPicked >= 5) {
 		FruitGameMode->GameOverMenu();
 	}
 	FruitGameMode->SpawnFruit();

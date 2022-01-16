@@ -28,4 +28,5 @@ private:
 	TSubclassOf<class UUserWidget> MainMenuClass;
 	TSubclassOf<class UUserWidget> GameOverClass;
 	class UMainMenu* Menu;
+	class UGameOverMenu* GameOverMenu;
 };

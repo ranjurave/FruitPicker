@@ -53,21 +53,26 @@ void AFruitPickerGameMode::SpawnFruit()
 	FVector SpawnPosition = FVector(RandX, RandY, SpawnZ);
 	FRotator SpawnRotation = FRotator(0.0f, 0.0f, 0.0f);
 
-	int32 randomNumber = FMath::RandRange(1, 3);
-	switch (randomNumber)
-	{
-	case 1:
-		GetWorld()->SpawnActor(Mango , &SpawnPosition, &SpawnRotation);
-		break;
-	case 2:
-		GetWorld()->SpawnActor(Apple, &SpawnPosition, &SpawnRotation);	
-		break;
-	case 3:
-		GetWorld()->SpawnActor(Orange, &SpawnPosition, &SpawnRotation);
-		break;
-	default:
-		break;
-	}
+	int32 randomNumber = FMath::RandRange(0, FruitDropList.Num()-1);
+	//if(HasAuthority()) {
+	GetWorld()->SpawnActor(FruitDropList[randomNumber], &SpawnPosition, &SpawnRotation);
+
+	//}
+
+	//switch (randomNumber)
+	//{
+	//case 1:
+	//	GetWorld()->SpawnActor(Mango , &SpawnPosition, &SpawnRotation);
+	//	break;
+	//case 2:
+	//	GetWorld()->SpawnActor(Apple, &SpawnPosition, &SpawnRotation);	
+	//	break;
+	//case 3:
+	//	GetWorld()->SpawnActor(Orange, &SpawnPosition, &SpawnRotation);
+	//	break;
+	//default:
+	//	break;
+	//}
 }
 
 void AFruitPickerGameMode::GameOverMenu() {

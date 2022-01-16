@@ -14,6 +14,10 @@ UFruitPickerGameInstance::UFruitPickerGameInstance(const FObjectInitializer& Obj
 	ConstructorHelpers::FClassFinder<UUserWidget> MainMenuBPClass(TEXT("/Game/UI/MainMenu_WBP"));
 	if (!ensure(MainMenuBPClass.Class != nullptr)) return;
 	MainMenuClass = MainMenuBPClass.Class;
+
+	ConstructorHelpers::FClassFinder<UUserWidget> GameOverBPClass(TEXT("/Game/UI/GameOver_WBP"));
+	if (!ensure(GameOverBPClass.Class != nullptr)) return;
+	GameOverClass = GameOverBPClass.Class;
 }
 
 void UFruitPickerGameInstance::Init()

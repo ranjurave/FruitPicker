@@ -9,6 +9,7 @@
 
 #include "FruitPickerGameMode.generated.h"
 
+class AFruitPickable;
 UCLASS(minimalapi)
 class AFruitPickerGameMode : public AGameModeBase
 {
@@ -18,18 +19,18 @@ protected:
 public:
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnywhere)
-		TSubclassOf<AActor> Mango;
-	UPROPERTY(EditAnywhere)
-		TSubclassOf<AActor> Orange;
-	UPROPERTY(EditAnywhere)
-		TSubclassOf<AActor> Apple;
+	//UPROPERTY(EditAnywhere)
+	//	TSubclassOf<AActor> Mango;
+	//UPROPERTY(EditAnywhere)
+	//	TSubclassOf<AActor> Orange;
+	//UPROPERTY(EditAnywhere)
+	//	TSubclassOf<AActor> Apple;
 
 	//TODO implement in array
-	//UPROPERTY()
-	//	TArray<AActor*> FruitDropList;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<TSubclassOf<AFruitPickable>> FruitDropList;
 
-	float SpawnZ = 900.0f;
+	float SpawnZ = 50.0f;
 
 	UPROPERTY(EditAnywhere)
 		float SpawnMinX;
