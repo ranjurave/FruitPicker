@@ -46,11 +46,9 @@ void AFruitPickerGameMode::SpawnFruit()
 	GetWorld()->SpawnActor(FruitDropList[randomNumber], &SpawnPosition, &SpawnRotation);
 }
 
-void AFruitPickerGameMode::GameOverMenu() {
-	if (HasAuthority()) {
+void AFruitPickerGameMode::GameOverMenu_Implementation() {
 		if (!ensure(FinishMenuClass != nullptr)) return;
 		UUserWidget* FinishMenu = CreateWidget<UUserWidget>(GetWorld(), FinishMenuClass);
 		if (!ensure(FinishMenu != nullptr)) return;
 		FinishMenu->AddToViewport();
-	}
 }

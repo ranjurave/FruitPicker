@@ -6,6 +6,7 @@
 
 #include "FruitPickable.h"
 #include "GameFramework/Actor.h"
+#include "Net/UnrealNetwork.h"
 
 #include "FruitPickerGameMode.generated.h"
 
@@ -36,7 +37,7 @@ public:
 	AFruitPickerGameMode();
 	void SpawnFruit();
 
-	UFUNCTION()
+	UFUNCTION(Server, Reliable)
 	void GameOverMenu();
 
 	UPROPERTY(EditAnywhere)
