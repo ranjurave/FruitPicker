@@ -1,0 +1,12 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Unreal Projects\FruitPicker).
+  Creating makefile for FruitPickerEditor (config setting changed)
+  While compiling D:\Unreal Projects\FruitPicker\FruitPickerGame\Intermediate\Build\BuildRules\FruitPickerModuleRules.dll:
+d:\Unreal Projects\FruitPicker\FruitPickerGame\Source\FruitPicker\FruitPicker.Build.cs(13,3): warning CS0618: 'UnrealBuildTool.ModuleRules.bFasterWithoutUnity' is obsolete: 'bFasterWithoutUnity has been deprecated in favor of setting 'bUseUnity' on a per module basis in BuildConfiguration'
+  Parsing headers for FruitPickerEditor
+    Running UnrealHeaderTool "D:\Unreal Projects\FruitPicker\FruitPickerGame\FruitPicker.uproject" "D:\Unreal Projects\FruitPicker\FruitPickerGame\Intermediate\Build\Win64\FruitPickerEditor\Development\FruitPickerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\ranju\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for FruitPickerEditor in 57.5560965 seconds
+  Building FruitPickerEditor...
+  Using Visual Studio 2019 14.29.30138 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 23 actions with 12 processes...
+    [1/23] Default.rc2

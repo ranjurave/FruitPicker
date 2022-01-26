@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\FruitPicker.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{0D301FF7-BC90-47C4-8463-838AF414BE0A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FruitPicker.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FruitPickerEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\StartGame.bat" />
+    <None Include="..\..\StartServer.bat" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{3882BACB-6F04-4308-A22C-668728115AAA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FruitPicker">
+      <UniqueIdentifier>{0518AF10-2958-4BC1-8FD6-83BC6910F822}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FruitPicker\FruitPickable.cpp">
+      <Filter>Source\FruitPicker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FruitPicker\FruitPickable.h">
+      <Filter>Source\FruitPicker</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\FruitPicker\FruitPicker.Build.cs">
+      <Filter>Source\FruitPicker</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FruitPicker\FruitPicker.cpp">
+      <Filter>Source\FruitPicker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FruitPicker\FruitPicker.h">
+      <Filter>Source\FruitPicker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FruitPicker\FruitPickerCharacter.cpp">
+      <Filter>Source\FruitPicker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FruitPicker\FruitPickerCharacter.h">
+      <Filter>Source\FruitPicker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FruitPicker\FruitPickerGameInstance.cpp">
+      <Filter>Source\FruitPicker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FruitPicker\FruitPickerGameInstance.h">
+      <Filter>Source\FruitPicker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FruitPicker\FruitPickerGameMode.cpp">
+      <Filter>Source\FruitPicker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FruitPicker\FruitPickerGameMode.h">
+      <Filter>Source\FruitPicker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FruitPicker\MainMenu.cpp">
+      <Filter>Source\FruitPicker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FruitPicker\MainMenu.h">
+      <Filter>Source\FruitPicker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FruitPicker\MenuInterface.cpp">
+      <Filter>Source\FruitPicker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FruitPicker\MenuInterface.h">
+      <Filter>Source\FruitPicker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FruitPicker\MyStaticMeshActor.cpp">
+      <Filter>Source\FruitPicker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FruitPicker\MyStaticMeshActor.h">
+      <Filter>Source\FruitPicker</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FruitPicker\PlatformTrigger.cpp">
+      <Filter>Source\FruitPicker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FruitPicker\PlatformTrigger.h">
+      <Filter>Source\FruitPicker</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

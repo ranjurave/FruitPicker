@@ -1,0 +1,643 @@
+﻿Log file open, 01/18/22 16:40:48
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: FruitPicker
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 17 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.269745
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +12:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.27-CL-18319896
+LogInit: Engine Version: 4.27.2-18319896+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+LogInit: Net CL: 17155196
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz, GPU: Radeon RX 580 Series
+LogInit: Compiled (64-bit): Nov 30 2021 07:12:08
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line: -log -server
+LogInit: Base Directory: E:/Program Files/UE_4.27/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.01.18-03.40.49:172][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2022.01.18-03.40.49:172][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.01.18-03.40.49:173][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Engine.ini]
+[2022.01.18-03.40.49:173][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.01.18-03.40.49:173][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Engine.ini]
+[2022.01.18-03.40.49:174][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Engine.ini]
+[2022.01.18-03.40.49:174][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.01.18-03.40.49:174][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.01.18-03.40.49:175][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.01.18-03.40.49:175][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.01.18-03.40.49:175][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.01.18-03.40.49:176][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.01.18-03.40.49:178][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.01.18-03.40.49:178][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.01.18-03.40.49:178][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.01.18-03.40.49:179][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.01.18-03.40.49:179][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.01.18-03.40.49:179][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.01.18-03.40.49:179][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.01.18-03.40.49:180][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.01.18-03.40.49:180][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Engine.ini]
+[2022.01.18-03.40.49:180][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.01.18-03.40.49:181][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.01.18-03.40.49:181][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.01.18-03.40.49:181][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.01.18-03.40.49:182][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.01.18-03.40.49:182][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.01.18-03.40.49:182][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.01.18-03.40.49:183][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.01.18-03.40.49:183][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.01.18-03.40.49:183][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.01.18-03.40.49:184][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.01.18-03.40.49:184][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.01.18-03.40.49:184][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.01.18-03.40.49:185][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2022.01.18-03.40.49:185][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Engine.ini]
+[2022.01.18-03.40.49:185][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Engine.ini]
+[2022.01.18-03.40.49:186][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Scalability.ini]
+[2022.01.18-03.40.49:186][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.01.18-03.40.49:186][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.01.18-03.40.49:187][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Scalability.ini]
+[2022.01.18-03.40.49:187][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.01.18-03.40.49:187][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Scalability.ini]
+[2022.01.18-03.40.49:188][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.01.18-03.40.49:188][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.01.18-03.40.49:188][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.01.18-03.40.49:189][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.01.18-03.40.49:189][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.01.18-03.40.49:189][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.01.18-03.40.49:190][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.01.18-03.40.49:190][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.01.18-03.40.49:190][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.01.18-03.40.49:191][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.01.18-03.40.49:191][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.01.18-03.40.49:191][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.01.18-03.40.49:191][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.01.18-03.40.49:192][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.01.18-03.40.49:195][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.01.18-03.40.49:195][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.01.18-03.40.49:196][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.01.18-03.40.49:196][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.01.18-03.40.49:196][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Scalability.ini]
+[2022.01.18-03.40.49:197][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.01.18-03.40.49:197][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.01.18-03.40.49:198][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.01.18-03.40.49:198][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.01.18-03.40.49:198][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.01.18-03.40.49:199][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.01.18-03.40.49:199][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.01.18-03.40.49:199][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.01.18-03.40.49:200][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.01.18-03.40.49:200][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.01.18-03.40.49:200][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.01.18-03.40.49:200][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.01.18-03.40.49:201][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.01.18-03.40.49:201][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.01.18-03.40.49:201][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.01.18-03.40.49:202][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.01.18-03.40.49:202][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.01.18-03.40.49:202][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.01.18-03.40.49:203][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.01.18-03.40.49:203][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.01.18-03.40.49:203][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.01.18-03.40.49:204][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.01.18-03.40.49:204][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.01.18-03.40.49:204][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.01.18-03.40.49:205][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.01.18-03.40.49:205][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.01.18-03.40.49:205][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.01.18-03.40.49:205][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.01.18-03.40.49:206][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.01.18-03.40.49:206][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.01.18-03.40.49:206][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Scalability.ini]
+[2022.01.18-03.40.49:207][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.01.18-03.40.49:209][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.01.18-03.40.49:209][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.01.18-03.40.49:210][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.01.18-03.40.49:210][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.01.18-03.40.49:210][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.01.18-03.40.49:211][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.01.18-03.40.49:211][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.01.18-03.40.49:211][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.01.18-03.40.49:212][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Scalability.ini]
+[2022.01.18-03.40.49:212][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.01.18-03.40.49:212][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.01.18-03.40.49:212][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.01.18-03.40.49:213][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.01.18-03.40.49:213][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.01.18-03.40.49:213][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.01.18-03.40.49:214][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.01.18-03.40.49:214][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.01.18-03.40.49:214][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.01.18-03.40.49:215][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.01.18-03.40.49:215][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.01.18-03.40.49:215][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.01.18-03.40.49:216][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.01.18-03.40.49:216][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.01.18-03.40.49:216][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.01.18-03.40.49:216][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.01.18-03.40.49:217][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.01.18-03.40.49:217][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.01.18-03.40.49:217][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.01.18-03.40.49:218][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.01.18-03.40.49:218][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.01.18-03.40.49:218][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.01.18-03.40.49:219][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.01.18-03.40.49:219][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.01.18-03.40.49:219][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.01.18-03.40.49:220][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.01.18-03.40.49:220][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.01.18-03.40.49:220][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.01.18-03.40.49:221][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Scalability.ini]
+[2022.01.18-03.40.49:221][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.01.18-03.40.49:221][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.01.18-03.40.49:221][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Scalability.ini]
+[2022.01.18-03.40.49:222][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.01.18-03.40.49:222][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.01.18-03.40.49:222][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.01.18-03.40.49:223][  0]LogInit: Selected Device Profile: [Windows]
+[2022.01.18-03.40.49:225][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.01.18-03.40.49:225][  0]LogHAL: Display: Platform has ~ 16 GB [17098670080 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.01.18-03.40.49:226][  0]LogInit: Going up to parent DeviceProfile []
+[2022.01.18-03.40.49:226][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Scalability.ini]
+[2022.01.18-03.40.49:226][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.01.18-03.40.49:227][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.01.18-03.40.49:227][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Scalability.ini]
+[2022.01.18-03.40.49:227][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.01.18-03.40.49:227][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Scalability.ini]
+[2022.01.18-03.40.49:228][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.01.18-03.40.49:228][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.01.18-03.40.49:228][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.01.18-03.40.49:229][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.01.18-03.40.49:229][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.01.18-03.40.49:229][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.01.18-03.40.49:230][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.01.18-03.40.49:230][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.01.18-03.40.49:230][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.01.18-03.40.49:231][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.01.18-03.40.49:231][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.01.18-03.40.49:231][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.01.18-03.40.49:231][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.01.18-03.40.49:232][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.01.18-03.40.49:232][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.01.18-03.40.49:232][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.01.18-03.40.49:233][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.01.18-03.40.49:233][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.01.18-03.40.49:233][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Scalability.ini]
+[2022.01.18-03.40.49:234][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.01.18-03.40.49:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.01.18-03.40.49:234][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.01.18-03.40.49:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.01.18-03.40.49:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.01.18-03.40.49:235][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.01.18-03.40.49:235][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.01.18-03.40.49:236][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.01.18-03.40.49:236][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.01.18-03.40.49:236][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.01.18-03.40.49:237][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.01.18-03.40.49:237][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.01.18-03.40.49:237][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.01.18-03.40.49:238][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.01.18-03.40.49:238][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.01.18-03.40.49:238][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.01.18-03.40.49:239][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.01.18-03.40.49:241][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.01.18-03.40.49:241][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.01.18-03.40.49:241][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.01.18-03.40.49:242][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.01.18-03.40.49:242][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.01.18-03.40.49:242][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.01.18-03.40.49:243][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.01.18-03.40.49:243][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.01.18-03.40.49:243][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.01.18-03.40.49:244][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.01.18-03.40.49:244][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.01.18-03.40.49:244][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.01.18-03.40.49:244][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.01.18-03.40.49:245][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Scalability.ini]
+[2022.01.18-03.40.49:245][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.01.18-03.40.49:245][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.01.18-03.40.49:246][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.01.18-03.40.49:246][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.01.18-03.40.49:246][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.01.18-03.40.49:247][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.01.18-03.40.49:247][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.01.18-03.40.49:247][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.01.18-03.40.49:248][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.01.18-03.40.49:248][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Scalability.ini]
+[2022.01.18-03.40.49:248][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.01.18-03.40.49:248][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.01.18-03.40.49:249][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.01.18-03.40.49:249][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.01.18-03.40.49:249][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.01.18-03.40.49:250][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.01.18-03.40.49:250][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.01.18-03.40.49:250][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.01.18-03.40.49:251][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.01.18-03.40.49:251][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.01.18-03.40.49:251][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.01.18-03.40.49:252][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.01.18-03.40.49:252][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.01.18-03.40.49:252][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.01.18-03.40.49:252][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.01.18-03.40.49:253][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.01.18-03.40.49:253][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.01.18-03.40.49:253][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.01.18-03.40.49:254][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.01.18-03.40.49:254][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.01.18-03.40.49:254][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.01.18-03.40.49:255][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.01.18-03.40.49:257][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.01.18-03.40.49:260][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.01.18-03.40.49:261][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.01.18-03.40.49:262][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.01.18-03.40.49:263][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.01.18-03.40.49:265][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.01.18-03.40.49:265][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Scalability.ini]
+[2022.01.18-03.40.49:266][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.01.18-03.40.49:267][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.01.18-03.40.49:268][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Scalability.ini]
+[2022.01.18-03.40.49:269][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.01.18-03.40.49:269][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.01.18-03.40.49:270][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.01.18-03.40.49:273][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.01.18-03.40.49:274][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.01.18-03.40.49:274][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.01.18-03.40.49:275][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.01.18-03.40.49:276][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Engine.ini]
+[2022.01.18-03.40.49:276][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Unreal Projects/FruitPicker/Saved/Config/Windows/Editor.ini]
+[2022.01.18-03.40.49:277][  0]LogInit: Computer: RANJU
+[2022.01.18-03.40.49:278][  0]LogInit: User: ranju
+[2022.01.18-03.40.49:279][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.01.18-03.40.49:279][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.01.18-03.40.49:280][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.01.18-03.40.49:280][  0]LogMemory: Platform Memory Stats for Windows
+[2022.01.18-03.40.49:281][  0]LogMemory: Process Physical Memory: 136.14 MB used, 136.14 MB peak
+[2022.01.18-03.40.49:281][  0]LogMemory: Process Virtual Memory: 115.29 MB used, 115.29 MB peak
+[2022.01.18-03.40.49:282][  0]LogMemory: Physical Memory: 9504.05 MB used,  6802.51 MB free, 16306.56 MB total
+[2022.01.18-03.40.49:282][  0]LogMemory: Virtual Memory: 134206104.00 MB used,  11625.59 MB free, 134217728.00 MB total
+[2022.01.18-03.40.49:289][  0]LogWindows: WindowsPlatformFeatures disabled or dedicated server build
+[2022.01.18-03.40.49:300][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.01.18-03.40.49:300][  0]LogInit: Using OS detected language (en-US).
+[2022.01.18-03.40.49:300][  0]LogInit: Using OS detected locale (en-NZ).
+[2022.01.18-03.40.49:302][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2022.01.18-03.40.49:794][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.01.18-03.40.49:813][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.01.18-03.40.49:813][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.01.18-03.40.49:813][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.01.18-03.40.49:813][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.01.18-03.40.49:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.01.18-03.40.49:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.01.18-03.40.49:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.01.18-03.40.49:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.01.18-03.40.49:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.01.18-03.40.49:815][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.01.18-03.40.49:830][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.01.18-03.40.49:830][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.01.18-03.40.49:839][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.01.18-03.40.49:842][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.01.18-03.40.49:846][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.01.18-03.40.49:849][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.01.18-03.40.49:857][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.01.18-03.40.49:860][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.01.18-03.40.49:864][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.01.18-03.40.49:883][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.01.18-03.40.49:884][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.01.18-03.40.49:891][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2022.01.18-03.40.49:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2022.01.18-03.40.49:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2022.01.18-03.40.49:901][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2022.01.18-03.40.49:909][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.01.18-03.40.49:909][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.01.18-03.40.49:917][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.01.18-03.40.49:920][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.01.18-03.40.49:924][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.01.18-03.40.49:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.01.18-03.40.49:927][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.01.18-03.40.49:933][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.01.18-03.40.49:953][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2022.01.18-03.40.49:976][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.01.18-03.40.49:976][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (D:/Unreal Projects/FruitPicker/Intermediate/Shaders/WorkingDirectory/13964/).
+[2022.01.18-03.40.49:976][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ranju/AppData/Local/Temp/UnrealShaderWorkingDir/B861DA3F428E9F31FDD15CB856329BCD/'.
+[2022.01.18-03.40.49:976][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2022.01.18-03.40.49:976][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.01.18-03.40.49:977][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.01.18-03.40.50:438][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.01.18-03.40.50:501][  0]LogDerivedDataCache: Loaded boot cache 0.06s 103MB C:/Users/ranju/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2022.01.18-03.40.50:502][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ranju/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2022.01.18-03.40.50:502][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Unreal Projects/FruitPicker/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.01.18-03.40.50:503][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.01.18-03.40.50:503][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Unreal Projects/FruitPicker/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.01.18-03.40.50:504][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.01.18-03.40.50:518][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.01.18-03.40.50:518][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.01.18-03.40.50:519][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.01.18-03.40.50:524][  0]LogDerivedDataCache: Speed tests for C:/Users/ranju/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.01 seconds
+[2022.01.18-03.40.50:524][  0]LogDerivedDataCache: Display: Performance to C:/Users/ranju/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.03ms. RandomReadSpeed=1063.59MBs, RandomWriteSpeed=248.32MBs. Assigned SpeedClass 'Local'
+[2022.01.18-03.40.50:525][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ranju/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.01.18-03.40.50:526][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.01.18-03.40.50:526][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.01.18-03.40.50:549][  0]LogInit: Using OS detected language (en-US).
+[2022.01.18-03.40.50:549][  0]LogInit: Using OS detected locale (en-NZ).
+[2022.01.18-03.40.50:550][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2022.01.18-03.40.50:551][  0]LogTextLocalizationManager: No localization for 'en-NZ' exists, so 'en' will be used for the locale.
+[2022.01.18-03.40.50:572][  0]LogTextLocalizationManager: Compacting localization data took   0.02ms
+[2022.01.18-03.40.50:573][  0]LogAssetRegistry: FAssetRegistry took 0.0072 seconds to start up
+[2022.01.18-03.40.50:846][  0]LogPackageLocalizationCache: Processed 27 localized package path(s) for 1 prioritized culture(s) in 0.119953 seconds
+[2022.01.18-03.40.50:907][  0]LogInit: Selected Device Profile: [Windows]
+[2022.01.18-03.40.50:907][  0]LogInit: Active device profile: [000001E3DFA3D400][000001E3E38818C0 49] Windows
+[2022.01.18-03.40.50:908][  0]LogInit: Profiles: [000001E3DFA3D400][000001E3E38818C0 49] Windows, [000001E3DF9B3F00][000001E3E388FB80 49] WindowsNoEditor, [000001E3DF9C3700][000001E3E38922C0 49] WindowsServer, [000001E3DF9B3000][000001E3E3896580 49] WindowsClient, [000001E3DF9C2F00][000001E3E389A840 49] IOS, [000001E3DF9B0D00][000001E3E389EB00 49] iPadAir, [000001E3DF9C1100][000001E3E38A2DC0 49] iPadAir2, [000001E3DF96C400][000001E3E38B9280 49] IPadPro, [000001E3DF96C500][000001E3E38852C0 49] iPadAir3, [000001E3DF9B1200][000001E3E38B5580 49] iPadAir4, [000001E3DF96EF00][000001E3E38B1840 49] iPadMini2, [000001E3DF9B2A00][000001E3E38C3B00 49] iPadMini3, [000001E3DF96EC00][000001E3E38C6240 49] iPadMini4, [000001E3DF9B1600][000001E3E38CA500 49] iPadMini5, [000001E3DF95FC00][000001E3E31D2A40 49] iPhone6, [000001E3DF95FD00][000001E3E31C2A80 49] iPodTouch6, [000001E3DFA3ED00][000001E3E31DAFC0 49] iPhone7, [000001E3DFA3EE00][000001E3E31CB000 49] iPodTouch7, [000001E3DF95C700][000001E3E38A7280 49] iPhone5S, [000001E3DF96C200][000001E3E31CF500 49] iPhone6Plus, [000001E3DF95E000][000001E3E31D77C0 49] iPhone6S, [000001E3DF96C300][000001E3E31DFA80 49] iPhone6SPlus, [000001E3DF95CA00][000001E3E31E21C0 49] iPhone7Plus, [000001E3DF96F300][000001E3E31E6480 49] iPhoneSE, [000001E3DFA3F300][000001E3E31EA740 49] iPhone8, [000001E3DF96E900][000001E3E31EEA00 49] iPhone8Plus, [000001E3DFA3E300][000001E3E31F2CC0 49] iPhoneX, [000001E3DF96D500][000001E3E31F6F80 49] iPhoneXS, [000001E3DFA3CC00][000001E3E31FB240 49] iPhoneXSMax, [000001E3DF96CB00][000001E3E31C74C0 49] iPhoneXR, [000001E3DFA3E100][000001E3E31FF740 49] iPhone11, [000001E3DF96EB00][000001E3E3207A00 49] iPhone11Pro, [000001E3DFA3F200][000001E3E320A140 49] iPhone11ProMax, [000001E3DF96D600][000001E3E320E400 49] iPhoneSE2, [000001E3DFA3E600][000001E3E32126C0 49] iPhone12Mini, [000001E3DF96C100][000001E3E3216980 49] iPhone12, [000001E3DFA3D900][000001E3E321AC40 49] iPhone12Pro, [000001E3DF96DF00][000001E3E321EF00 49] iPhone12ProMax, [000001E3DFA3D600][000001E3E32231C0 49] iPadPro105, [000001E3DF96F500][000001E3E3227480 49] iPadPro129, [000001E3DFA3DE00][000001E3E3203700 49] iPadPro97, [000001E3DF96F600][000001E3E322B980 49] iPadPro2_129, [000001E3DFA3D700][000001E3E32320C0 49] iPad5, [000001E3DF96F900][000001E3E3236380 49] iPad6, [000001E3DFA3F000][000001E3E323A640 49] iPad7, [000001E3DF96EE00][000001E3E323E900 49] iPad8, [000001E3DFA3CF00][000001E3E3242BC0 49] iPadPro11, [000001E3DF96C800][000001E3E3246E80 49] iPadPro2_11, [000001E3DFA3D100][000001E3E324B140 49] iPadPro3_129, [000001E3DF96ED00][000001E3E324F400 49] iPadPro4_129, [000001E3DFA3C700][000001E3E32536C0 49] AppleTV, [000001E3DF96E000][000001E3E322F940 49] AppleTV4K, [000001E3DFA3EA00][000001E3E3257BC0 49] TVOS, [000001E3DF96E400][000001E3E325E300 49] Mac, [000001E3DFA3C600][000001E3E32625C0 49] MacClient, [000001E3DF96DB00][000001E3E3266880 49] MacNoEditor, [000001E3DFA3EB00][000001E3E326AB40 49] MacServer, [000001E3DF96F400][000001E3E326EE00 49] Linux, [000001E3DFA3C500][000001E3E32730C0 49] LinuxAArch64, [000001E3DF96CF00][000001E3E3277380 49] LinuxNoEditor, [000001E3DFA3C300][000001E3E327B640 49] LinuxAArch64NoEditor, [000001E3DF96E100][000001E3E327F900 49] LinuxClient, [000001E3DFA3E400][000001E3E325BB80 49] LinuxAArch64Client, [000001E3DF96DC00][000001E3E3282280 49] LinuxServer, [000001E3DFA3E500][000001E3E328A540 49] LinuxAArch64Server, [000001E3DF96EA00][000001E3E328E800 49] Android, [000001E3DF9B3B00][000001E3E3292AC0 49] Android_Low, [000001E3DF95E200][000001E3E3296D80 49] Android_Mid, [000001E3DF9B2700][000001E3E329B040 49] Android_High, [000001E3DF95FB00][000001E3E329F300 49] Android_Default, [000001E3DF9B1E00][000001E3E32A35C0 49] Android_Adreno4xx, [000001E3DF95E800][000001E3E32A7880 49] Android_Adreno5xx_Low, [000001E3DF9B1F00][000001E3E32ABB40 49] Android_Adreno5xx, [000001E3DF95D700][000001E3E3286240 49] Android_Adreno6xx, [000001E3DF9B3200][000001E3E32AE4C0 49] Android_Adreno6xx_Vulkan, [000001E3DF95F000][000001E3E32B6780 49] Android_Mali_T6xx, [000001E3DF9B0B00][000001E3E32BAA40 49] Android_Mali_T7xx, [000001E3DF95F500][000001E3E32BED00 49] Android_Mali_T8xx, [000001E3DF9B0C00][000001E3E32C2FC0 49] Android_Mali_G71, [000001E3DF95CB00][000001E3E32C7280 49] Android_Mali_G72, [000001E3DF9B3100][000001E3E32CB540 49] Android_Mali_G72_Vulkan, [000001E3DF95D200][000001E3E32CF800 49] Android_Mali_G76, [000001E3DF9B1D00][000001E3E32D3AC0 49] Android_Mali_G76_Vulkan, [000001E3DF95C600][000001E3E32D6200 49] Android_Mali_G77, [000001E3DF9B3400][000001E3E32B2480 49] Android_Mali_G77_Vulkan, [000001E3DF95F200][000001E3E32DE740 49] Android_Mali_G78, [000001E3DF9B2800][000001E3E32E2A00 49] Android_Mali_G78_Vulkan, [000001E3DF95C100][000001E3E32E6CC0 49] Android_Mali_G710, [000001E3DF9B1500][000001E3E32EAF80 49] Android_Mali_G710_Vulkan, [000001E3DF95F400][000001E3E32EF240 49] Android_Vulkan_SM5, [000001E3DF9B2100][000001E3E32F3500 49] Android_PowerVR_G6xxx, [000001E3DF95E500][000001E3E32F77C0 49] Android_PowerVR_GT7xxx, [000001E3DF96FD00][000001E3E32FBA80 49] Android_PowerVR_GE8xxx, [000001E3DF95D600][000001E3E32FE1C0 49] Android_PowerVR_GM9xxx, [000001E3DF96CE00][000001E3E32DA440 49] Android_PowerVR_GM9xxx_Vulkan, [000001E3DF95C400][000001E3E33026C0 49] Android_TegraK1, [000001E3DF96DE00][000001E3E330A980 49] Android_Unknown_Vulkan, [000001E3DF95F800][000001E3E330EC40 49] Lumin, [000001E3DF96FF00][000001E3E3312F00 49] Lumin_Desktop, [000001E3DF95CF00][000001E3E33171C0 49] HoloLens, 
+[2022.01.18-03.40.50:934][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.01.18-03.40.50:934][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.01.18-03.40.50:935][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.01.18-03.40.50:936][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.01.18-03.40.50:936][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.01.18-03.40.50:945][  0]LogNetVersion: FruitPicker 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 1359387568)
+[2022.01.18-03.40.51:019][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2022.01.18-03.40.51:031][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2022.01.18-03.40.51:143][  0]LogPython: Using Python 3.7.7
+[2022.01.18-03.40.51:521][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 75F1579B490E4B3270CD648F2C628546 | Instance: 57B9E1264C1FFE5A542B08A46E594DCD (RANJU-13964).
+[2022.01.18-03.40.51:535][  0]LogCollectionManager: Loaded 0 collections in 0.000675 seconds
+[2022.01.18-03.40.51:537][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/FruitPicker/Saved/Collections/' took 0.00s
+[2022.01.18-03.40.51:537][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/FruitPicker/Content/Developers/ranju/Collections/' took 0.00s
+[2022.01.18-03.40.51:538][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/FruitPicker/Content/Collections/' took 0.00s
+[2022.01.18-03.40.51:538][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2022.01.18-03.40.51:804][  0]SourceControl: Source control is disabled
+[2022.01.18-03.40.51:805][  0]SourceControl: Source control is disabled
+[2022.01.18-03.40.51:807][  0]SourceControl: Source control is disabled
+[2022.01.18-03.40.51:812][  0]LogUProjectInfo: Found projects:
+[2022.01.18-03.40.51:872][  0]LogOpenImageDenoise: OIDN starting up
+[2022.01.18-03.40.51:896][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.01.18-03.40.51:911][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.01.18-03.40.51:911][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.01.18-03.40.51:964][  0]LogOcInput: OculusInput pre-init called
+[2022.01.18-03.40.51:971][  0]LogUObjectArray: 23157 objects as part of root set at end of initial load.
+[2022.01.18-03.40.51:972][  0]LogUObjectAllocator: 6506944 out of 0 bytes used by permanent object pool.
+[2022.01.18-03.40.51:972][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.01.18-03.40.52:003][  0]LogEngine: Initializing Engine...
+[2022.01.18-03.40.52:004][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.01.18-03.40.52:014][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.01.18-03.40.52:014][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.01.18-03.40.52:132][  0]LogDerivedDataCache: Saved boot cache 0.12s 103MB C:/Users/ranju/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2022.01.18-03.40.52:139][  0]LogInit: Texture streaming: Disabled
+[2022.01.18-03.40.52:167][  0]LogInit: Display: Game Engine Initialized.
+[2022.01.18-03.40.52:183][  0]LogNiagaraEditor: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2022.01.18-03.40.52:227][  0]LogInit: Display: Starting Game.
+[2022.01.18-03.40.52:236][  0]LogNet: Browse: /Game/ThirdPersonCPP/Maps/GameMap?Name=Player
+[2022.01.18-03.40.52:236][  0]LogLoad: LoadMap: /Game/ThirdPersonCPP/Maps/GameMap?Name=Player
+[2022.01.18-03.40.52:237][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2022.01.18-03.40.52:243][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.01.18-03.40.52:263][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.01.18-03.40.52:315][  0]LogAIModule: Creating AISystem for world GameMap
+[2022.01.18-03.40.52:315][  0]LogLoad: Game class is 'FruitPickGM_BP_C'
+[2022.01.18-03.40.52:316][  0]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2022.01.18-03.40.52:316][  0]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2022.01.18-03.40.52:316][  0]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2022.01.18-03.40.52:317][  0]LogNet: Created socket for bind address: 0.0.0.0 on port 7777
+[2022.01.18-03.40.52:317][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.01.18-03.40.52:317][  0]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
+[2022.01.18-03.40.52:319][  0]LogWorld: Bringing World /Game/ThirdPersonCPP/Maps/GameMap.GameMap up for play (max tick rate 30) at 2022.01.18-16.40.52
+[2022.01.18-03.40.52:336][  0]LogWorld: Bringing up level for play took: 0.017981
+[2022.01.18-03.40.52:337][  0]LogLoad: Took 0.100821 seconds to LoadMap(/Game/ThirdPersonCPP/Maps/GameMap)
+[2022.01.18-03.40.52:351][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.01.18-03.40.52:351][  0]LogLoad: (Engine Initialization) Total time: 5.02 seconds
+[2022.01.18-03.40.52:352][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.01.18-03.41.48:344][665]LogNet: NotifyAcceptingConnection accepted from: 192.168.20.11:50566
+[2022.01.18-03.41.48:344][665]LogHandshake: SendConnectChallenge. Timestamp: 55.991233, Cookie: 129133019220015105045249117139020197062181021168231067071094
+[2022.01.18-03.41.48:376][666]LogNet: NotifyAcceptingConnection accepted from: 192.168.20.11:50566
+[2022.01.18-03.41.48:376][666]LogHandshake: SendChallengeAck. InCookie: 129133019220015105045249117139020197062181021168231067071094
+[2022.01.18-03.41.48:377][666]LogNet: Server accepting post-challenge connection from: 192.168.20.11:50566
+[2022.01.18-03.41.48:378][666]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.01.18-03.41.48:378][666]LogNet: NotifyAcceptedConnection: Name: GameMap, TimeStamp: 01/18/22 16:41:48, [UNetConnection] RemoteAddr: 192.168.20.11:50566, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.01.18-03.41.48:378][666]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 192.168.20.11:50566, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.01.18-03.41.48:410][667]LogNet: NotifyAcceptingChannel Control 0 server World /Game/ThirdPersonCPP/Maps/GameMap.GameMap: Accepted
+[2022.01.18-03.41.48:410][667]LogNet: Remote platform little endian=1
+[2022.01.18-03.41.48:411][667]LogNet: This platform little endian=1
+[2022.01.18-03.41.48:445][667]LogNetVersion: FruitPicker 1.0.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 3487973159)
+[2022.01.18-03.41.48:480][669]LogNet: Login request: ?Name=Ranju-70F0235F46B8896487AD5DAD5A32CB48 userId: NULL:Ranju-70F0235F46B8896487AD5DAD5A32CB48 platform: NULL
+[2022.01.18-03.41.48:514][670]LogNet: Client netspeed is 100000
+[2022.01.18-03.41.48:646][674]LogNet: Join request: /Game/ThirdPersonCPP/Maps/GameMap?Name=Ranju-70F0235F46B8896487AD5DAD5A32CB48?SplitscreenCount=1
+[2022.01.18-03.41.48:646][674]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.01.18-03.41.48:669][674]LogNet: Join succeeded: Ranju-70F0235F46B889
+[2022.01.18-03.41.54:498][850]LogNetPackageMap: Warning: UPackageMapClient::InternalLoadObject: Received reference to pending kill object from client: PathName: MeshComp, ObjOuter: /Game/ThirdPersonCPP/Maps/GameMap.GameMap:PersistentLevel.OrangePickable_BP_2 
+[2022.01.18-03.41.56:690][916]LogNetPackageMap: Warning: UPackageMapClient::InternalLoadObject: Received reference to pending kill object from client: PathName: MeshComp, ObjOuter: /Game/ThirdPersonCPP/Maps/GameMap.GameMap:PersistentLevel.OrangePickable_BP_C_0 
+[2022.01.18-03.41.56:724][917]LogNetPackageMap: Warning: UPackageMapClient::InternalLoadObject: Received reference to pending kill object from client: PathName: MeshComp, ObjOuter: /Game/ThirdPersonCPP/Maps/GameMap.GameMap:PersistentLevel.OrangePickable_BP_C_0 
+[2022.01.18-03.41.57:985][955]LogNetPackageMap: Warning: UPackageMapClient::InternalLoadObject: Received reference to pending kill object from client: PathName: MeshComp, ObjOuter: /Game/ThirdPersonCPP/Maps/GameMap.GameMap:PersistentLevel.ApplePickable_BP_C_0 
+[2022.01.18-03.41.57:986][955]LogNetPackageMap: Warning: UPackageMapClient::InternalLoadObject: Received reference to pending kill object from client: PathName: MeshComp, ObjOuter: /Game/ThirdPersonCPP/Maps/GameMap.GameMap:PersistentLevel.ApplePickable_BP_C_0 
+[2022.01.18-03.41.57:988][955]LogNetPackageMap: Warning: UPackageMapClient::InternalLoadObject: Received reference to pending kill object from client: PathName: MeshComp, ObjOuter: /Game/ThirdPersonCPP/Maps/GameMap.GameMap:PersistentLevel.ApplePickable_BP_C_0 
+[2022.01.18-03.41.59:316][995]LogNetPackageMap: Warning: UPackageMapClient::InternalLoadObject: Received reference to pending kill object from client: PathName: MeshComp, ObjOuter: /Game/ThirdPersonCPP/Maps/GameMap.GameMap:PersistentLevel.OrangePickable_BP_C_1 
+[2022.01.18-03.42.03:365][117]LogNetPackageMap: Warning: UPackageMapClient::InternalLoadObject: Received reference to pending kill object from client: PathName: MeshComp, ObjOuter: /Game/ThirdPersonCPP/Maps/GameMap.GameMap:PersistentLevel.ApplePickable_BP_C_2 
+[2022.01.18-03.42.07:426][239]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2022.01.18-03.42.07:426][239]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.20.11:50566, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:Ranju-70F0235F46B8896487AD5DAD5A32CB48
+[2022.01.18-03.42.07:427][239]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 192.168.20.11:50566, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:Ranju-70F0235F46B8896487AD5DAD5A32CB48, Channels: 14, Time: 2022.01.18-03.42.07
+[2022.01.18-03.42.07:427][239]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 192.168.20.11:50566, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:Ranju-70F0235F46B8896487AD5DAD5A32CB48
+[2022.01.18-03.42.07:428][239]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)

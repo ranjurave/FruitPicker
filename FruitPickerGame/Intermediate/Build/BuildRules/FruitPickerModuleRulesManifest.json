@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Projects\\FruitPicker\\FruitPickerGame\\Source\\FruitPicker\\FruitPicker.Build.cs",
+		"D:\\Unreal Projects\\FruitPicker\\FruitPickerGame\\Source\\FruitPicker.Target.cs",
+		"D:\\Unreal Projects\\FruitPicker\\FruitPickerGame\\Source\\FruitPickerEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}

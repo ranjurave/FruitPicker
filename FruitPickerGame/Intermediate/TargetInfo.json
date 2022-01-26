@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "FruitPicker",
+			"Path": "D:\\Unreal Projects\\FruitPicker\\Source\\FruitPicker.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "FruitPickerEditor",
+			"Path": "D:\\Unreal Projects\\FruitPicker\\Source\\FruitPickerEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

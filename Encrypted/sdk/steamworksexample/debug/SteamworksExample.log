@@ -1,0 +1,36 @@
+﻿  BaseMenu.cpp
+  clanchatroom.cpp
+  connectingmenu.cpp
+  Friends.cpp
+  gameenginewin32.cpp
+  htmlsurface.cpp
+  Inventory.cpp
+  ItemStore.cpp
+  Leaderboards.cpp
+  Lobby.cpp
+  Main.cpp
+  MainMenu.cpp
+  musicplayer.cpp
+  p2pauth.cpp
+  PhotonBeam.cpp
+  QuitMenu.cpp
+  RemotePlay.cpp
+  RemoteStorage.cpp
+  ServerBrowser.cpp
+  Ship.cpp
+  Generating Code...
+  Compiling...
+  SpaceWarClient.cpp
+  SpaceWarEntity.cpp
+  SpaceWarServer.cpp
+  StarField.cpp
+  StatsAndAchievements.cpp
+  stdafx.cpp
+  Sun.cpp
+  VectorEntity.cpp
+  voicechat.cpp
+  Generating Code...
+BaseMenu.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  SteamworksExample.vcxproj -> D:\Unreal Projects\FruitPicker\Encrypted\sdk\steamworksexample\Debug\SteamworksExample.exe
+          1 file(s) copied.
+          1 file(s) copied.
